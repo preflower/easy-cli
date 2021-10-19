@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "eslint-plugin-vue": "^7.19.1",
+    "@vue/eslint-config-standard": "^6.1.0"
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "eslint --fix",
+      "stylelint \".vue\" --fix",
+      "git add"
+    ]
+  }
+}

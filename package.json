@@ -1,0 +1,60 @@
+{
+  "name": "@preflower/cli",
+  "version": "1.0.0",
+  "description": "A easy way to create linter/release/git standard cli",
+  "bin": {
+    "@preflower/cli": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx only-allow pnpm",
+    "release": "release-it",
+    "format": "standard --fix",
+    "prepare": "husky install",
+    "prepublish": "rollup index.js --file dist/index.js --format cjs"
+  },
+  "author": "Ted Lin <preflower.lin+npm@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/preflower/easy-cli",
+  "bugs": {
+    "url": "https://github.com/preflower/easy-cli/issues"
+  },
+  "homepage": "https://github.com/preflower/easy-cli#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^13.2.0",
+    "@release-it/conventional-changelog": "^3.3.0",
+    "chalk": "^4.1.2",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
+    "prompts": "^2.4.2",
+    "release-it": "^14.11.6",
+    "rollup": "^2.58.0",
+    "standard": "^16.0.4"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "standard --fix"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/index.js"
+  ]
+}
