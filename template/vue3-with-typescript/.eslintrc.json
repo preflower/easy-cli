@@ -1,0 +1,31 @@
+{
+  "parser": "vue-eslint-parser",
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:vue/vue3-strongly-recommended",
+    "standard-with-typescript"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json",
+    "extraFileExtensions": [".vue"]
+  },
+  "plugins": ["vue", "@typescript-eslint"],
+  "rules": {
+    "no-void": ["error", { "allowAsStatement": true }],
+    "@typescript-eslint/strict-boolean-expressions": [
+      "error",
+      { "allowAny": true }
+    ],
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      { "checksVoidReturn": false }
+    ]
+  }
+}

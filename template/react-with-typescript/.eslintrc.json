@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "standard-with-typescript",
+    "standard-react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"]
+}

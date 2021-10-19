@@ -1,0 +1,12 @@
+{
+  "extends": ["plugin:vue/vue3-strongly-recommended", "standard"],
+  "parserOptions": {
+    "parser": "vue-eslint-parser",
+    "extraFileExtensions": [".vue"]
+  },
+  "plugins": ["vue"],
+  "rules": {
+    "no-void": ["error", { "allowAsStatement": true }],
+    "vue/no-use-v-if-with-v-for": "off"
+  }
+}

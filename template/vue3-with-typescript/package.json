@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "eslint-plugin-vue": "^7.20.0",
+    "vue-tsc": "^0.28.7",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix",
+      "stylelint \".vue\" --fix",
+      "git add"
+    ]
+  }
+}

@@ -1,14 +1,11 @@
-import fs from 'fs'
 import path from 'path'
 import prompts from 'prompts'
 import chalk from 'chalk'
 
+import { mergeTemplate, renderTemplate } from './utils/render-template'
+
 async function init () {
-  const cwd = process.cwd
-  process.cwd()
-
   let result = {}
-
   try {
     result = await prompts(
       [
@@ -17,13 +14,15 @@ async function init () {
           type: 'select',
           message: 'Pick Framework',
           choices: [
-            { title: 'Vue', value: 'vue' },
+            { title: 'Vue2', value: 'vue2' },
+            { title: 'Vue3', value: 'vue3' },
             { title: 'React', value: 'react' },
             { title: 'Bare', value: 'bare' }
           ]
         },
         {
           name: 'needTypescript',
+          type: prev => prev !== 'vue2' ? 'toggle' : null,
           message: 'Add Typescript?',
           initial: false,
           active: 'Yes',
@@ -31,6 +30,7 @@ async function init () {
         },
         {
           name: 'needJsx',
+          type: 'toggle',
           message: 'Add JSX Support?',
           initial: false,
           active: 'Yes',
@@ -38,11 +38,11 @@ async function init () {
         },
         {
           name: 'needPublish',
+          type: 'toggle',
           message: 'Add npm publish?',
           initial: false,
           active: 'Yes',
-          inactive: 'No',
-          onState: (state) => (isNeedPublishToNpm = state.value ?? false)
+          inactive: 'No'
         },
         {
           name: 'repository',
@@ -56,13 +56,53 @@ async function init () {
         }
       }
     )
-  } catch(e) {
+  } catch (e) {
     console.log(e.message)
     process.exit(1)
   }
+
+  const { framework, needTypescript, needJsx } = result
+  // const {framework, needTypescript, needJsx, needPublish, repository} = result
+
+  const templateRoot = path.resolve(__dirname, 'template')
+
+  const render = function render (templateName) {
+    const templateDir = path.resolve(templateRoot, templateName)
+    mergeTemplate(templateDir)
+  }
+
+  render('base')
+  if (framework === 'vue2') {
+    render('vue2')
+  } else if (framework === 'vue3') {
+    if (needTypescript) {
+      render('vue3-with-typescript')
+    } else {
+      render('vue3')
+    }
+  } else if (framework === 'react') {
+    if (needTypescript) {
+      render('react-with-typescript')
+    } else {
+      render('react')
+    }
+  } else {
+    if (needTypescript) {
+      render('typescript')
+    } else {
+      render('bare')
+    }
+  }
+  if (needJsx) {
+    render('jsx')
+  }
+  // TODO: need a method to resolve
+  // dynamic set npm repository
+  // if (needPublish && repository) {
+  //   render('npm')
+  // }
+
+  renderTemplate(process.cwd())
 }
-const {needTypescript, needJsx, needPublish, repository} = result
 
-
-
-init().then(e => { console.log(e) })
+init().catch(e => { console.log(e) })

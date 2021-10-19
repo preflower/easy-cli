@@ -1,0 +1,15 @@
+{
+  "repository": "${repository}",
+  "bugs": {
+    "url": "${repository}/issues"
+  },
+  "homepage": "${repository}#readme",
+  "release-it": {
+    "npm": {
+      "publish": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

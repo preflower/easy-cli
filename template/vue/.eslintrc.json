@@ -1,7 +1,0 @@
-{
-  /* override */
-  "extends": ["plugin:vue/recommended", "@vue/standard"],
-  "rules": {
-    "vue/no-use-v-if-with-v-for": "off"
-  }
-}
