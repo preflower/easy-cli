@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/preflower/easy-cli/compare/v1.0.3...v1.0.4) (2021-10-21)
+
+
+### Bug Fixes
+
+* lack of external dependencies error ([4bc2b3d](https://github.com/preflower/easy-cli/commit/4bc2b3db95cb1323364f5c4f503060e325409296))
+
 ## [1.0.3](https://github.com/preflower/easy-cli/compare/v1.0.2...v1.0.3) (2021-10-21)
 
 
