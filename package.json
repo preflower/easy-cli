@@ -10,7 +10,7 @@
     "release": "release-it",
     "format": "standard --fix",
     "prepare": "husky install",
-    "prepublish": "rollup index.js --file bundle.js --format cjs --banner '#!/usr/bin/env node'"
+    "prepublish": "rollup --config"
   },
   "author": "Ted Lin <preflower.lin+npm@gmail.com>",
   "license": "MIT",
@@ -23,6 +23,8 @@
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
     "@release-it/conventional-changelog": "^3.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
     "chalk": "^4.1.2",
     "husky": "^7.0.2",
     "lint-staged": "^11.2.3",
