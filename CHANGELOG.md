@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/preflower/easy-cli/compare/v1.0.4...v1.0.5) (2021-10-21)
+
+
+### Bug Fixes
+
+* template not publish error ([23ffbbb](https://github.com/preflower/easy-cli/commit/23ffbbbd7c69fd8e24e1002b360ab980b79481b9))
+
 ## [1.0.4](https://github.com/preflower/easy-cli/compare/v1.0.3...v1.0.4) (2021-10-21)
 
 
