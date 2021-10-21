@@ -10,7 +10,7 @@
     "release": "release-it",
     "format": "standard --fix",
     "prepare": "husky install",
-    "prepublish": "rollup index.js --file bundle.js --format cjs"
+    "prepublish": "rollup index.js --file bundle.js --format cjs --banner '#!/usr/bin/env node'"
   },
   "author": "Ted Lin <preflower.lin+npm@gmail.com>",
   "license": "MIT",
