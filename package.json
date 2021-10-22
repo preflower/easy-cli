@@ -1,6 +1,6 @@
 {
   "name": "@preflower/cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A easy way to create linter/release/git standard cli",
   "bin": {
     "@preflower/cli": "bundle.js"

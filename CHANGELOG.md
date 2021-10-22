@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/preflower/easy-cli/compare/v1.1.0...v1.2.0) (2021-10-22)
+
+
+### Features
+
+* support npm inject ([e4127b7](https://github.com/preflower/easy-cli/commit/e4127b7caad38cd43a052819c6c050467da46eb1))
+
 # [1.1.0](https://github.com/preflower/easy-cli/compare/v1.0.5...v1.1.0) (2021-10-22)
 
 
