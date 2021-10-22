@@ -1,7 +1,10 @@
 {
+  "parser": "vue-eslint-parser",
   "extends": ["plugin:vue/recommended", "standard"],
   "parserOptions": {
-    "parser": "vue-eslint-parser",
+    "ecmaFeatures": {
+      "jsx": true
+    },
     "extraFileExtensions": [".vue"]
   },
   "plugins": ["vue"],

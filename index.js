@@ -6,6 +6,7 @@ import { mergeTemplate, renderTemplate } from './utils/render-template'
 
 async function init () {
   let result = {}
+
   try {
     result = await prompts(
       [
@@ -24,14 +25,6 @@ async function init () {
           name: 'needTypescript',
           type: prev => prev !== 'vue2' ? 'toggle' : null,
           message: 'Add Typescript?',
-          initial: false,
-          active: 'Yes',
-          inactive: 'No'
-        },
-        {
-          name: 'needJsx',
-          type: 'toggle',
-          message: 'Add JSX Support?',
           initial: false,
           active: 'Yes',
           inactive: 'No'
