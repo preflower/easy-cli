@@ -2,7 +2,7 @@ import path from 'path'
 import prompts from 'prompts'
 import chalk from 'chalk'
 
-import { mergeTemplate, renderTemplate } from './utils/render-template'
+import { mergeTemplate, renderTemplate, updateRepository } from './utils/render-template'
 
 async function init () {
   let result = {}
@@ -54,8 +54,7 @@ async function init () {
     process.exit(1)
   }
 
-  const { framework, needTypescript, needJsx } = result
-  // const {framework, needTypescript, needJsx, needPublish, repository} = result
+  const { framework, needTypescript, needJsx, needPublish, repository } = result
 
   const templateRoot = path.resolve(__dirname, 'template')
 
@@ -89,11 +88,10 @@ async function init () {
   if (needJsx) {
     render('jsx')
   }
-  // TODO: need a method to resolve
-  // dynamic set npm repository
-  // if (needPublish && repository) {
-  //   render('npm')
-  // }
+  if (needPublish && repository) {
+    render('npm')
+    updateRepository(repository)
+  }
 
   renderTemplate(process.cwd())
 }

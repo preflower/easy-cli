@@ -26,6 +26,11 @@ export function mergeTemplate (src, dest) {
   }
 }
 
+export function updateRepository (repository) {
+  const pkg = templates['package.json']
+  templates['package.json'] = JSON.parse(JSON.stringify(pkg).replace(/\$\{repository\}/g, repository))
+}
+
 export function renderTemplate (root) {
   const { 'package.json': newPackage, ...others } = templates
 
