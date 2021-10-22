@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/preflower/easy-cli/compare/v1.0.5...v1.1.0) (2021-10-22)
+
+
+### Features
+
+* all suppport JSX by default ([239f713](https://github.com/preflower/easy-cli/commit/239f713f39fa107bae00efee7269336b97cc0692))
+
 ## [1.0.5](https://github.com/preflower/easy-cli/compare/v1.0.4...v1.0.5) (2021-10-21)
 
 
