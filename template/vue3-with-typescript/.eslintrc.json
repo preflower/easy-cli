@@ -19,6 +19,7 @@
   "plugins": ["vue", "@typescript-eslint"],
   "rules": {
     "no-void": ["error", { "allowAsStatement": true }],
+    "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/strict-boolean-expressions": [
       "error",
       { "allowAny": true }
