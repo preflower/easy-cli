@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/preflower/easy-cli/compare/v1.2.0...v1.2.1) (2021-10-22)
+
+
+### Bug Fixes
+
+* husky shell exception ([47dc0b7](https://github.com/preflower/easy-cli/commit/47dc0b771771814d67c0db8acf77651b46bf9435))
+* lack of dependencies cause eslint invalid ([13c03f9](https://github.com/preflower/easy-cli/commit/13c03f96e7dd7e4e495f445951bfdd951922a8c0))
+
 # [1.2.0](https://github.com/preflower/easy-cli/compare/v1.1.0...v1.2.0) (2021-10-22)
 
 
