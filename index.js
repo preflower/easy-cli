@@ -18,7 +18,7 @@ async function init () {
             { title: 'Vue2', value: 'vue2' },
             { title: 'Vue3', value: 'vue3' },
             { title: 'React', value: 'react' },
-            { title: 'Bare', value: 'bare' }
+            { title: 'Vanilla', value: 'vanilla' }
           ]
         },
         {
@@ -80,9 +80,9 @@ async function init () {
     }
   } else {
     if (needTypescript) {
-      render('typescript')
+      render('vanilla-with-typescript')
     } else {
-      render('bare')
+      render('vanilla')
     }
   }
   if (needJsx) {
