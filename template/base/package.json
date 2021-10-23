@@ -38,8 +38,7 @@
   },
   "lint-staged": {
     "*.{css,scss}": [
-      "stylelint --fix",
-      "git add"
+      "stylelint --fix"
     ]
   },
   "stylelint": {
