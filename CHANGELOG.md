@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/preflower/easy-cli/compare/v1.2.1...v1.2.2) (2021-10-23)
+
+
+### Bug Fixes
+
+* remove git add because lint-staged will auto added ([3557194](https://github.com/preflower/easy-cli/commit/3557194f0e576a130f9761947f5f53c5fcaa64a4))
+* vanilla-ts exist useless dependency ([d31a865](https://github.com/preflower/easy-cli/commit/d31a865607a1f6113877a1e501059fe4d2bdb02b))
+
 ## [1.2.1](https://github.com/preflower/easy-cli/compare/v1.2.0...v1.2.1) (2021-10-22)
 
 
