@@ -2,7 +2,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "rangeStrategy": "replace"
+      "rangeStrategy": "bump"
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
