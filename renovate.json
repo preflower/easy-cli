@@ -2,12 +2,11 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "rangeStrategy": "bump"
+      "rangeStrategy": "replace"
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     }
   ],
   "extends": ["config:base"]
