@@ -8,7 +8,7 @@ specifiers:
   '@rollup/plugin-node-resolve': ^13.0.6
   chalk: ^4.1.2
   husky: ^7.0.4
-  lint-staged: ^11.2.3
+  lint-staged: ^11.2.6
   prompts: ^2.4.2
   release-it: ^14.11.6
   rollup: ^2.58.0
@@ -22,7 +22,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.0.6_rollup@2.58.0
   chalk: 4.1.2
   husky: 7.0.4
-  lint-staged: 11.2.3
+  lint-staged: 11.2.6
   prompts: 2.4.2
   release-it: 14.11.6
   rollup: 2.58.0
@@ -2530,8 +2530,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/11.2.3:
-    resolution: {integrity: sha512-Tfmhk8O2XFMD25EswHPv+OYhUjsijy5D7liTdxeXvhG2rsadmOLFtyj8lmlfoFFXY8oXWAIOKpoI+lJe1DB1mw==}
+  /lint-staged/11.2.6:
+    resolution: {integrity: sha512-Vti55pUnpvPE0J9936lKl0ngVeTdSZpEdTNhASbkaWX7J5R9OEifo1INBGQuGW4zmy6OG+TcWPJ3m5yuy5Q8Tg==}
     hasBin: true
     dependencies:
       cli-truncate: 2.1.0
