@@ -6,9 +6,9 @@
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "ignoreTests": true
+      "automerge": true
     }
   ],
-  "extends": ["config:base"]
+  "extends": ["config:base"],
+  "ignoreTests": true
 }
