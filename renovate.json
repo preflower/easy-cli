@@ -5,6 +5,10 @@
       "groupName": "stylelint"
     },
     {
+      "matchPackagePatterns": ["^eslint", "^@typescript-eslint"],
+      "groupName": "eslint related"
+    },
+    {
       "matchPackagePatterns": ["*"],
       "rangeStrategy": "bump"
     },
