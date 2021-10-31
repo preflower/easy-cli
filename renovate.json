@@ -1,6 +1,10 @@
 {
   "packageRules": [
     {
+      "matchPackagePatterns": ["^stylelint"],
+      "groupName": "stylelint"
+    },
+    {
       "matchPackagePatterns": ["*"],
       "rangeStrategy": "bump"
     },
