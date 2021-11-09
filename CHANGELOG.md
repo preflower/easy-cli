@@ -1,3 +1,5 @@
+## [1.2.5](https://github.com/preflower/easy-cli/compare/v1.2.3...v1.2.5) (2021-11-09)
+
 ## [1.2.3](https://github.com/preflower/easy-cli/compare/v1.2.2...v1.2.3) (2021-11-09)
 
 
