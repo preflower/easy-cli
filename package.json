@@ -7,10 +7,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it",
+    "release": "rollup -c && release-it",
     "format": "standard --fix",
     "prepare": "husky install",
-    "prepublish": "rollup --config"
+    "prepublish": "rollup -c"
   },
   "author": "Ted Lin <preflower.lin+npm@gmail.com>",
   "license": "MIT",
