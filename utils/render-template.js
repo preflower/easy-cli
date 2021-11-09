@@ -55,6 +55,7 @@ export function renderTemplate (root) {
     if (dirname !== '.') {
       fs.mkdirSync(path.resolve(root, dirname), { recursive: true })
     }
-    fs.writeFileSync(dest, data)
+    // husky need permission to execute, so we set file mode is 755
+    fs.writeFileSync(dest, data, { mode: 0o755 })
   }
 }
