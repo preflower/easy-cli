@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "eslint-plugin-vue": "^8.0.3",
-    "vue-tsc": "^0.29.0",
+    "vue-tsc": "^0.29.2",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1"
   },
