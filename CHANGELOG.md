@@ -1,3 +1,16 @@
+## [1.2.3](https://github.com/preflower/easy-cli/compare/v1.2.2...v1.2.3) (2021-11-09)
+
+
+### Bug Fixes
+
+* husky not executable error ([cd94743](https://github.com/preflower/easy-cli/commit/cd9474377d21c415639271879aca389269b47e23))
+
+
+### Reverts
+
+* Revert "chore(renovate): update config" ([f38e90a](https://github.com/preflower/easy-cli/commit/f38e90a5b4c7d31919c8618d27f09d84d4e33096))
+* **renovate:** revert auto merge type ([80f1a03](https://github.com/preflower/easy-cli/commit/80f1a03bac20e675537324443ffe25a536e64b6a))
+
 ## [1.2.2](https://github.com/preflower/easy-cli/compare/v1.2.1...v1.2.2) (2021-10-23)
 
 
