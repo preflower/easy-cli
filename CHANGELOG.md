@@ -1,3 +1,11 @@
+## [1.2.6](https://github.com/preflower/easy-cli/compare/v1.2.5...v1.2.6) (2021-11-17)
+
+
+### Bug Fixes
+
+* lint-staged prompt single value `*.{js}` need be reformat `*.js` ([a456424](https://github.com/preflower/easy-cli/commit/a456424d32a6ad4502fbdeb77e661ea88118290a))
+* ts templates dependency lack error ([d08ed1f](https://github.com/preflower/easy-cli/commit/d08ed1f340d7c0729b47285d4e6ccf19570ba18b))
+
 ## [1.2.5](https://github.com/preflower/easy-cli/compare/v1.2.3...v1.2.5) (2021-11-09)
 
 ## [1.2.3](https://github.com/preflower/easy-cli/compare/v1.2.2...v1.2.3) (2021-11-09)
