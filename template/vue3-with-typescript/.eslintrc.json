@@ -6,7 +6,8 @@
   },
   "extends": [
     "plugin:vue/vue3-strongly-recommended",
-    "standard-with-typescript"
+    "standard-with-typescript",
+    "standard-jsx"
   ],
   "parserOptions": {
     "parser": "@typescript-eslint/parser",

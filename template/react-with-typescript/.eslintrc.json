@@ -1,7 +1,8 @@
 {
   "extends": [
     "standard-with-typescript",
-    "standard-react"
+    "standard-react",
+    "standard-jsx"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
