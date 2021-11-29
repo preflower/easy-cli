@@ -2,7 +2,7 @@
   "devDependencies": {
     "eslint-plugin-vue": "^8.1.1",
     "vue-tsc": "^0.29.7",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "eslint-config-standard-jsx": "^10.0.0",
     "eslint-plugin-react": "^7.27.1",
