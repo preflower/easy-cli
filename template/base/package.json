@@ -12,7 +12,7 @@
     "release-it": "^14.11.8",
     "stylelint": "^14.1.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
-    "eslint": "^8.4.0",
+    "eslint": "^8.4.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-import": "^2.25.3",
