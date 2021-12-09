@@ -30,7 +30,7 @@
     "lint-staged": "^11.2.6",
     "prompts": "^2.4.2",
     "release-it": "^14.11.8",
-    "rollup": "^2.60.2",
+    "rollup": "^2.61.0",
     "standard": "^16.0.4"
   },
   "release-it": {
