@@ -1,9 +1,9 @@
 {
   "devDependencies": {
     "typescript": "^4.5.4",
-    "@typescript-eslint/parser": "^5.7.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "eslint-config-standard-with-typescript": "^21.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@types/node": "^16.11.14"
   },
   "lint-staged": {
