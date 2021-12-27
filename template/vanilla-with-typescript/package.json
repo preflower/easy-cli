@@ -3,7 +3,7 @@
     "typescript": "^4.5.4",
     "@typescript-eslint/parser": "^5.8.0",
     "eslint-config-standard-with-typescript": "^21.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@types/node": "^16.11.17"
   },
   "lint-staged": {
