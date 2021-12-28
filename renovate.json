@@ -18,5 +18,8 @@
     }
   ],
   "extends": ["config:base"],
-  "ignoreTests": true
+  "ignoreTests": true,
+  "schedule": [
+    "before 3am on Monday"
+  ]
 }
