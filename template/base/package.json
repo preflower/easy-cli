@@ -9,7 +9,7 @@
     "@release-it/conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
-    "release-it": "^14.11.8",
+    "release-it": "^14.12.3",
     "stylelint": "^14.2.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "eslint": "^8.5.0",
