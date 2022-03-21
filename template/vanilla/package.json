@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.8",
     "@babel/eslint-parser": "^7.17.0"
   },
   "lint-staged": {
