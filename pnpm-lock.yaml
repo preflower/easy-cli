@@ -6,7 +6,7 @@ specifiers:
   '@release-it/conventional-changelog': ^3.3.0
   '@rollup/plugin-commonjs': ^21.0.3
   '@rollup/plugin-node-resolve': ^13.1.3
-  chalk: ^4.1.2
+  chalk: ^5.0.1
   husky: ^7.0.4
   lint-staged: ^11.2.6
   prompts: ^2.4.2
@@ -20,7 +20,7 @@ devDependencies:
   '@release-it/conventional-changelog': 3.3.0_release-it@14.12.5
   '@rollup/plugin-commonjs': 21.0.3_rollup@2.70.1
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.70.1
-  chalk: 4.1.2
+  chalk: 5.0.1
   husky: 7.0.4
   lint-staged: 11.2.6
   prompts: 2.4.2
@@ -787,6 +787,11 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: true
+
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /chardet/0.7.0:
