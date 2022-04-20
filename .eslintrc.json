@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@preflower\/eslint-config-basic"
+  ]
+}

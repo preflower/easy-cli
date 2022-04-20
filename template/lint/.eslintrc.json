@@ -1,0 +1,7 @@
+{
+  "extends": "@preflower",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "extraFileExtensions": [".vue"]
+  }
+}

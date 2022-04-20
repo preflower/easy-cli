@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "stylelint": "^14.1.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "eslint": "^8.2.0",
+    "@preflower/eslint-config": "^1.0.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue}": [
+      "eslint --fix"
+    ],
+    "*.{css,scss,vue}": [
+      "stylelint --fix"
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines",
+    "rules": {
+      "selector-max-id": null
+    }
+  }
+}

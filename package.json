@@ -6,50 +6,28 @@
     "@preflower/cli": "bundle.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "rollup -c && release-it",
-    "format": "standard --fix",
     "prepare": "husky install",
-    "prepublish": "rollup -c"
+    "build": "rollup -c",
+    "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
+    "ci:publish": "pnpm build && pnpm changeset publish"
   },
   "author": "Ted Lin <preflower.lin+npm@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/preflower/easy-cli",
-  "bugs": {
-    "url": "https://github.com/preflower/easy-cli/issues"
-  },
-  "homepage": "https://github.com/preflower/easy-cli#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.22.0",
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
-    "@release-it/conventional-changelog": "^3.3.0",
+    "@preflower/eslint-config-basic": "^1.0.1",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "chalk": "^4.1.2",
+    "eslint": "^8.2.0",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "prompts": "^2.4.2",
-    "release-it": "^14.11.7",
     "rollup": "^2.60.0",
-    "standard": "^16.0.4"
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "github": {
-      "release": true
-    },
-    "npm": {
-      "publish": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular",
-        "infile": "CHANGELOG.md"
-      }
-    }
+    "stylelint": "^14.1.0",
+    "stylelint-config-sass-guidelines": "^9.0.1"
   },
   "commitlint": {
     "extends": [
@@ -57,8 +35,11 @@
     ]
   },
   "lint-staged": {
-    "*.{js,ts}": [
-      "standard --fix"
+    "*.{js,ts,tsx,vue}": [
+      "eslint --fix"
+    ],
+    "*.{css,scss,vue}": [
+      "stylelint --fix"
     ]
   },
   "publishConfig": {
@@ -67,5 +48,16 @@
   "files": [
     "bundle.js",
     "template"
-  ]
+  ],
+  "repository": "https://github.com/preflower/easy-cli",
+  "bugs": {
+    "url": "https://github.com/preflower/easy-cli/issues"
+  },
+  "homepage": "https://github.com/preflower/easy-cli#readme",
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines",
+    "rules": {
+      "selector-max-id": null
+    }
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
+    "ci:publish": "pnpm build && pnpm changeset publish"
+  },
+  "repository": "https://github.com/preflower/${name}",
+  "bugs": {
+    "url": "https://github.com/preflower/${name}/issues"
+  },
+  "homepage": "https://github.com/preflower/${name}#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.22.0"
+  }
+}

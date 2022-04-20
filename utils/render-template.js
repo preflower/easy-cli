@@ -42,8 +42,11 @@ export function renderTemplate (root) {
   }
   // remove existPackage built-in eslintConfig
   delete existPackage.eslintConfig
-  const pkg = sortDependencies(deepMerge(existPackage, newPackage))
-  fs.writeFileSync(path.resolve(root, 'package.json'), JSON.stringify(pkg, null, 2) + '\n')
+
+  if (newPackage) {
+    const pkg = sortDependencies(deepMerge(existPackage, newPackage))
+    fs.writeFileSync(path.resolve(root, 'package.json'), JSON.stringify(pkg, null, 2) + '\n')
+  }
 
   for (const filePath in others) {
     const dirname = path.dirname(filePath)

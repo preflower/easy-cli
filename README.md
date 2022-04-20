@@ -17,7 +17,9 @@ easy-cli css base on `stylelint-config-sass-guidelines`
 ### Git Standard
 easy-cli git base on `angular`
 
+## Plugins
+- changesets: automated release, and support monorepo
+- lint: provide above `Standard` lint
+
 ## License
 MIT
-
-Inspired by [create-vue](https://github.com/vuejs/create-vue)
