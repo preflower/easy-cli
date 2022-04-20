@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': ^14.1.0
   '@preflower/eslint-config-basic': ^1.0.1
   '@rollup/plugin-commonjs': ^21.1.0
-  '@rollup/plugin-node-resolve': ^13.0.6
+  '@rollup/plugin-node-resolve': ^13.2.1
   chalk: ^4.1.2
   eslint: ^8.2.0
   husky: ^7.0.4
@@ -22,7 +22,7 @@ devDependencies:
   '@commitlint/config-conventional': 14.1.0
   '@preflower/eslint-config-basic': 1.0.1_eslint@8.13.0
   '@rollup/plugin-commonjs': 21.1.0_rollup@2.60.0
-  '@rollup/plugin-node-resolve': 13.0.6_rollup@2.60.0
+  '@rollup/plugin-node-resolve': 13.2.1_rollup@2.60.0
   chalk: 4.1.2
   eslint: 8.13.0
   husky: 7.0.4
@@ -503,8 +503,8 @@ packages:
       rollup: 2.60.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.0.6_rollup@2.60.0:
-    resolution: {integrity: sha512-sFsPDMPd4gMqnh2gS0uIxELnoRUp5kBl5knxD2EO0778G1oOJv4G1vyT2cpWz75OU2jDVcXhjVUuTAczGyFNKA==}
+  /@rollup/plugin-node-resolve/13.2.1_rollup@2.60.0:
+    resolution: {integrity: sha512-btX7kzGvp1JwShQI9V6IM841YKNPYjKCvUbNrQ2EcVYbULtUd/GH6wZ/qdqH13j9pOHBER+EZXNN2L8RSJhVRA==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
@@ -514,7 +514,7 @@ packages:
       builtin-modules: 3.2.0
       deepmerge: 4.2.2
       is-module: 1.0.0
-      resolve: 1.20.0
+      resolve: 1.22.0
       rollup: 2.60.0
     dev: true
 
@@ -526,7 +526,7 @@ packages:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
-      picomatch: 2.3.0
+      picomatch: 2.3.1
       rollup: 2.60.0
     dev: true
 
@@ -1893,12 +1893,6 @@ packages:
       ci-info: 3.3.0
     dev: true
 
-  /is-core-module/2.8.0:
-    resolution: {integrity: sha512-vd15qHsaqrRL7dtH6QNuy0ndJmRDrS9HAM1CAiSifNUFv4x1a0CCVsj18hJ1mShxIG6T2i1sO78MkP56r0nYRw==}
-    dependencies:
-      has: 1.0.3
-    dev: true
-
   /is-core-module/2.9.0:
     resolution: {integrity: sha512-+5FPy5PnwmO3lvfMb0AsoPaBG+5KHUI0wYFXOtYPnVVVspTFUuMZNfNaNVRt3FZadstu2c8x23vykRW/NBoU6A==}
     dependencies:
@@ -2347,7 +2341,7 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.2
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /micromatch/4.0.5:
@@ -2634,11 +2628,6 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
-  /picomatch/2.3.0:
-    resolution: {integrity: sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==}
-    engines: {node: '>=8.6'}
-    dev: true
-
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -2851,13 +2840,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       global-dirs: 0.1.1
-    dev: true
-
-  /resolve/1.20.0:
-    resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
-    dependencies:
-      is-core-module: 2.8.0
-      path-parse: 1.0.7
     dev: true
 
   /resolve/1.22.0:
