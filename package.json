@@ -18,7 +18,7 @@
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
     "@preflower/eslint-config-basic": "^1.0.1",
-    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "chalk": "^4.1.2",
     "eslint": "^8.2.0",
