@@ -7,7 +7,7 @@
     "@commitlint/config-conventional": "^16.2.4",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
-    "stylelint": "^14.8.1",
+    "stylelint": "^14.8.2",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "eslint": "^8.14.0",
     "@preflower/eslint-config": "^1.0.2"
