@@ -25,7 +25,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "prompts": "^2.4.2",
-    "rollup": "^2.75.0",
+    "rollup": "^2.75.1",
     "stylelint": "^14.8.5",
     "stylelint-config-sass-guidelines": "^9.0.1"
   },
