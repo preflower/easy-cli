@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@changesets/cli': ^2.23.1
+  '@changesets/cli': ^2.23.2
   '@commitlint/cli': ^16.3.0
   '@commitlint/config-conventional': ^16.2.4
   '@preflower/eslint-config-basic': ^1.0.1
@@ -17,7 +17,7 @@ specifiers:
   stylelint-config-sass-guidelines: ^9.0.1
 
 devDependencies:
-  '@changesets/cli': 2.23.1
+  '@changesets/cli': 2.23.2
   '@commitlint/cli': 16.3.0
   '@commitlint/config-conventional': 16.2.4
   '@preflower/eslint-config-basic': 1.0.1_eslint@8.19.0
@@ -97,8 +97,8 @@ packages:
       '@changesets/types': 5.0.0
     dev: true
 
-  /@changesets/cli/2.23.1:
-    resolution: {integrity: sha512-yXQ29Iw/26yq1oJpOCa7BJDeUvuurZmREmCX9p9m5RxlKNDnROJBylQDCVfqQdZbeV2jfvd3XRKvci80SvGssg==}
+  /@changesets/cli/2.23.2:
+    resolution: {integrity: sha512-o7CWC+mcwOmA3yK5axqHOSYPYEjX/x+nq/s9aX78AyzH1SQZa6L5HX4P9uUXibyjcKynklkmusxv8vN8+hJggA==}
     hasBin: true
     dependencies:
       '@babel/runtime': 7.17.9
@@ -2892,7 +2892,7 @@ packages:
     dev: true
 
   /require-directory/2.1.1:
-    resolution: {integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=}
+    resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
     dev: true
 
