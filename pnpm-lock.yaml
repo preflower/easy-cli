@@ -7,7 +7,7 @@ specifiers:
   '@preflower/eslint-config-basic': ^1.0.1
   '@rollup/plugin-commonjs': ^21.1.0
   '@rollup/plugin-node-resolve': ^13.3.0
-  chalk: ^4.1.2
+  chalk: ^5.0.1
   eslint: ^8.20.0
   husky: ^7.0.4
   lint-staged: ^11.2.6
@@ -23,7 +23,7 @@ devDependencies:
   '@preflower/eslint-config-basic': 1.0.1_eslint@8.20.0
   '@rollup/plugin-commonjs': 21.1.0_rollup@2.77.2
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.77.2
-  chalk: 4.1.2
+  chalk: 5.0.1
   eslint: 8.20.0
   husky: 7.0.4
   lint-staged: 11.2.6
@@ -841,6 +841,11 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: true
+
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /chardet/0.7.0:
