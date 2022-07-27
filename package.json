@@ -20,7 +20,7 @@
     "@preflower/eslint-config-basic": "^1.0.1",
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.1",
     "eslint": "^8.20.0",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
