@@ -1,5 +1,9 @@
 {
-  "extends": "@preflower",
+  "extends": [
+    "ted",
+    "ted/vue",
+    "ted/typescript"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json",
     "extraFileExtensions": [".vue"]

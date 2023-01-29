@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "ted",
+    "ted/typescript",
+    "ted/react"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
