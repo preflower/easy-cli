@@ -10,7 +10,7 @@
     "stylelint": "^14.16.1",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "eslint": "^8.33.0",
-    "@preflower/eslint-config": "^1.0.2"
+    "@preflower/eslint-config": "^2.0.0"
   },
   "commitlint": {
     "extends": [
