@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.1.0
+
+### Minor Changes
+
+- 220518a: feat: use eslint-config-ted instead of @preflower/eslint-config
+
 ### Major Changes
 
 - e03c125: provide next version
