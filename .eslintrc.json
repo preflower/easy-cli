@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@preflower\/eslint-config-basic"
+    "ted"
   ]
 }

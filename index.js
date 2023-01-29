@@ -11,6 +11,24 @@ async function init () {
     result = await prompts(
       [
         {
+          type: 'select',
+          name: 'framework',
+          message: '请选择框架',
+          choices: [
+            {
+              title: 'Vanilla',
+              value: undefined
+            },
+            {
+              title: 'Vue',
+              value: 'vue'
+            }, {
+              title: 'React',
+              value: 'react'
+            }
+          ]
+        },
+        {
           type: 'multiselect',
           name: 'wanna',
           message: '请勾选需要的插件',
@@ -36,7 +54,7 @@ async function init () {
     process.exit(1)
   }
 
-  const { wanna } = result
+  const { wanna, framework } = result
 
   const templateRoot = path.resolve(__dirname, 'template')
 
@@ -44,13 +62,23 @@ async function init () {
     const templateDir = path.resolve(templateRoot, templateName)
     mergeTemplate(templateDir)
   }
+
+  render('base')
+
   if (wanna.includes('changesets')) {
     render('changesets')
   }
 
   if (wanna.includes('lint')) {
-    render('lint')
+    render('lint/base')
+
+    if (framework === 'vue') {
+      render('lint/vue')
+    } else if (framework === 'react') {
+      render('lint/react')
+    }
   }
+
   renderTemplate(process.cwd())
 }
 

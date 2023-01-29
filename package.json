@@ -17,7 +17,7 @@
     "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-conventional": "^16.2.4",
-    "@preflower/eslint-config-basic": "^1.0.1",
+    "eslint-config-ted": "^2.0.1",
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "chalk": "^4.1.2",
