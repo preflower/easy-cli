@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "stylelint": "^14.16.1",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  },
+  "lint-staged": {
+    "*.{css,scss,vue}": [
+      "stylelint --fix"
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines",
+    "rules": {
+      "selector-max-id": null
+    }
+  }
+}

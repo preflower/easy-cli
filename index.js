@@ -29,16 +29,39 @@ async function init () {
           ]
         },
         {
+          type: 'toggle',
+          name: 'lint',
+          message: '是否使用格式校验工具?',
+          initial: true,
+          active: '是',
+          inactive: '否'
+        },
+        {
+          type: prev => prev === true ? 'select' : null,
+          name: 'stylelint',
+          message: '请选择CSS扩展',
+          choices: [
+            {
+              title: 'CSS',
+              value: undefined
+            },
+            {
+              title: 'SASS',
+              value: 'sass'
+            }, {
+              title: 'LESS',
+              value: 'less'
+            }
+          ]
+        },
+        {
           type: 'multiselect',
-          name: 'wanna',
+          name: 'plugins',
           message: '请勾选需要的插件',
           choices: [
             {
               title: 'changesets',
               value: 'changesets'
-            }, {
-              title: 'lint',
-              value: 'lint'
             }
           ]
         }
@@ -54,7 +77,7 @@ async function init () {
     process.exit(1)
   }
 
-  const { wanna, framework } = result
+  const { framework, lint, stylelint, plugins } = result
 
   const templateRoot = path.resolve(__dirname, 'template')
 
@@ -65,18 +88,24 @@ async function init () {
 
   render('base')
 
-  if (wanna.includes('changesets')) {
-    render('changesets')
-  }
-
-  if (wanna.includes('lint')) {
-    render('lint/base')
+  if (lint) {
+    render('eslint/base')
 
     if (framework === 'vue') {
-      render('lint/vue')
+      render('eslint/vue')
     } else if (framework === 'react') {
-      render('lint/react')
+      render('eslint/react')
     }
+
+    if (stylelint === 'less') {
+      render('stylelint/less')
+    } else {
+      render('stylelint/sass')
+    }
+  }
+
+  if (plugins.includes('changesets')) {
+    render('changesets')
   }
 
   renderTemplate(process.cwd())

@@ -5,23 +5,12 @@
   "devDependencies": {
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
-    "stylelint": "^14.16.1",
-    "stylelint-config-sass-guidelines": "^9.0.1",
     "eslint": "^8.33.0",
     "eslint-config-ted": "^2.0.1"
   },
   "lint-staged": {
     "*.{js,ts,tsx,vue}": [
       "eslint --fix"
-    ],
-    "*.{css,scss,vue}": [
-      "stylelint --fix"
     ]
-  },
-  "stylelint": {
-    "extends": "stylelint-config-sass-guidelines",
-    "rules": {
-      "selector-max-id": null
-    }
   }
 }
