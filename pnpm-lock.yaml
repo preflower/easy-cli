@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@changesets/cli': ^2.26.0
+  '@changesets/cli': ^2.26.1
   '@commitlint/cli': ^16.3.0
   '@commitlint/config-conventional': ^16.2.4
   '@rollup/plugin-commonjs': ^21.1.0
@@ -17,7 +17,7 @@ specifiers:
   stylelint-config-sass-guidelines: ^9.0.1
 
 devDependencies:
-  '@changesets/cli': 2.26.0
+  '@changesets/cli': 2.26.1
   '@commitlint/cli': 16.3.0
   '@commitlint/config-conventional': 16.2.4
   '@rollup/plugin-commonjs': 21.1.0_rollup@2.79.1
@@ -97,8 +97,8 @@ packages:
       '@changesets/types': 5.2.1
     dev: true
 
-  /@changesets/cli/2.26.0:
-    resolution: {integrity: sha512-0cbTiDms+ICTVtEwAFLNW0jBNex9f5+fFv3I771nBvdnV/mOjd1QJ4+f8KtVSOrwD9SJkk9xbDkWFb0oXd8d1Q==}
+  /@changesets/cli/2.26.1:
+    resolution: {integrity: sha512-XnTa+b51vt057fyAudvDKGB0Sh72xutQZNAdXkCqPBKO2zvs2yYZx5hFZj1u9cbtpwM6Sxtcr02/FQJfZOzemQ==}
     hasBin: true
     dependencies:
       '@babel/runtime': 7.20.6
@@ -848,7 +848,7 @@ packages:
       ignore: 5.2.1
       natural-compare-lite: 1.4.0
       regexpp: 3.2.0
-      semver: 7.3.7
+      semver: 7.3.8
       tsutils: 3.21.0
     transitivePeerDependencies:
       - supports-color
@@ -1946,7 +1946,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.11
-      semver: 7.3.7
+      semver: 7.3.8
       vue-eslint-parser: 9.1.0_eslint@8.36.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -3226,7 +3226,7 @@ packages:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.0
+      resolve: 1.22.1
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -3237,7 +3237,7 @@ packages:
     dependencies:
       hosted-git-info: 4.0.2
       is-core-module: 2.9.0
-      semver: 7.3.7
+      semver: 7.3.8
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -3436,7 +3436,7 @@ packages:
     dev: true
 
   /p-try/1.0.0:
-    resolution: {integrity: sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=}
+    resolution: {integrity: sha512-U1etNYuMJoIz3ZXSrrySFjsXQTWOx2/jdi86L+2pRvph/qMKL6sbcCYdH23fqsbm8TH2Gn0OybpT4eSFlCVHww==}
     engines: {node: '>=4'}
     dev: true
 
