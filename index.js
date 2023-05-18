@@ -2,7 +2,7 @@ import path from 'path'
 import prompts from 'prompts'
 import chalk from 'chalk'
 
-import { mergeTemplate, renderTemplate } from './utils/render-template'
+import { mergeTemplate, renderTemplate } from './utils/render-template.js'
 
 async function init () {
   let result = {}

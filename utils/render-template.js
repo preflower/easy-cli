@@ -1,8 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 
-import deepMerge from './deep-merge'
-import sortDependencies from './sort-dependencies'
+import deepMerge from './deep-merge.js'
+import sortDependencies from './sort-dependencies.js'
 
 const templates = {}
 
