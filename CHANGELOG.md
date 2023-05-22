@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.1
+
+### Patch Changes
+
+- 7a867c7: optimize release workflow
+
 ## 2.2.0
 
 ### Minor Changes
