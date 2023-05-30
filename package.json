@@ -19,7 +19,7 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@rollup/plugin-commonjs": "^25.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
     "chalk": "^5.2.0",
     "eslint": "^8.41.0",
     "eslint-config-ted": "^2.0.1",
