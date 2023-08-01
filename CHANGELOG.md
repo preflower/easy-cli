@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.3
+
+### Patch Changes
+
+- d445582: fix rollup build chalk not use node env error
+
 ## 2.2.2
 
 ### Patch Changes
