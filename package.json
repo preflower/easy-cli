@@ -8,7 +8,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "build": "pkgroll --src ./",
+    "build": "pkgroll --src ./ --export-condition=node",
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
     "ci:publish": "pnpm build && pnpm changeset publish"
   },
