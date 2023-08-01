@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.2
+
+### Patch Changes
+
+- 2b10da2: fix cli not work in Node v16+ error
+
 ## 2.2.1
 
 ### Patch Changes
