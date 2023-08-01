@@ -1,5 +1,5 @@
-/node_modules/
-/bundle.js
+node_modules/
+dist/
 
 # changesets
 .pnpm-store

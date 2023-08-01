@@ -4,11 +4,11 @@
   "description": "A easy way to create linter/release/git standard cli",
   "type": "module",
   "bin": {
-    "@preflower/cli": "bundle.js"
+    "@preflower/cli": "./dist/cli.js"
   },
   "scripts": {
     "prepare": "husky install",
-    "build": "rollup -c",
+    "build": "pkgroll --src ./",
     "ci:version": "pnpm changeset version && pnpm install --lockfile-only",
     "ci:publish": "pnpm build && pnpm changeset publish"
   },
@@ -18,15 +18,13 @@
     "@changesets/cli": "^2.26.2",
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
-    "@rollup/plugin-commonjs": "^25.0.3",
-    "@rollup/plugin-node-resolve": "^15.1.0",
     "chalk": "^5.3.0",
     "eslint": "^8.46.0",
     "eslint-config-ted": "^2.0.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prompts": "^2.4.2",
-    "rollup": "^3.27.0",
+    "pkgroll": "^1.10.0",
     "stylelint": "^15.10.2",
     "stylelint-config-sass-guidelines": "^10.0.0"
   },
@@ -47,7 +45,7 @@
     "access": "public"
   },
   "files": [
-    "bundle.js",
+    "dist/cli.js",
     "template"
   ],
   "repository": "https://github.com/preflower/easy-cli",
