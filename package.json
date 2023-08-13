@@ -22,7 +22,7 @@
     "eslint": "^8.47.0",
     "eslint-config-ted": "^2.0.1",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
+    "lint-staged": "^13.3.0",
     "prompts": "^2.4.2",
     "pkgroll": "^1.11.0",
     "stylelint": "^15.10.2",
