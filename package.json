@@ -1,6 +1,6 @@
 {
   "name": "@preflower/cli",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "A easy way to create linter/release/git standard cli",
   "type": "module",
   "bin": {
