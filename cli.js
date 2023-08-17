@@ -4,6 +4,8 @@ import chalk from 'chalk'
 
 import { mergeTemplate, renderTemplate } from './utils/render-template.js'
 
+const __dirname = path.resolve()
+
 async function init () {
   let result = {}
 
