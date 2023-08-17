@@ -54,7 +54,7 @@
     "access": "public"
   },
   "files": [
-    "dist/cli.js",
+    "dist/**/*.js",
     "template"
   ],
   "repository": "https://github.com/preflower/easy-cli",
