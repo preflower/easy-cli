@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.5
+
+### Patch Changes
+
+- a9b2f9f: fix template no such file or directory error
+
 ## 2.2.4
 
 ### Patch Changes
