@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.4
+
+### Patch Changes
+
+- 3071695: fix \_\_dirname not defined in ESM
+
 ## 2.2.3
 
 ### Patch Changes
