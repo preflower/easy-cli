@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.8
+
+### Patch Changes
+
+- cfca5c1: fix error
+
 ## 2.2.7
 
 ### Patch Changes
