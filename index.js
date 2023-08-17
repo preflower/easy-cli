@@ -1,8 +1,13 @@
+#!/usr/bin/env node
 import path from 'path'
 import prompts from 'prompts'
 import chalk from 'chalk'
+import { fileURLToPath } from 'url'
 
 import { mergeTemplate, renderTemplate } from './utils/render-template.js'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 async function init () {
   let result = {}
@@ -79,7 +84,7 @@ async function init () {
 
   const { framework, lint, stylelint, plugins } = result
 
-  const templateRoot = path.resolve(process.cwd(), 'template')
+  const templateRoot = path.resolve(__dirname, 'template')
 
   const render = function render (templateName) {
     const templateDir = path.resolve(templateRoot, templateName)
