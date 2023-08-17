@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.7
+
+### Patch Changes
+
+- a07b7ff: fix file not be out error
+
 ## 2.2.6
 
 ### Patch Changes
