@@ -1,10 +1,12 @@
 import path from 'path'
 import prompts from 'prompts'
 import chalk from 'chalk'
+import { fileURLToPath } from 'url'
 
 import { mergeTemplate, renderTemplate } from './utils/render-template.js'
 
-const __dirname = path.resolve()
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 async function init () {
   let result = {}
