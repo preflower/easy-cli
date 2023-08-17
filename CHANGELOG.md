@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.6
+
+### Patch Changes
+
+- eac254b: fix cli tool not work error
+
 ## 2.2.5
 
 ### Patch Changes
