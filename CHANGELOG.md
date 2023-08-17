@@ -1,5 +1,11 @@
 ## 2.0.0
 
+## 2.2.9
+
+### Patch Changes
+
+- d3f5ad0: fix error
+
 ## 2.2.8
 
 ### Patch Changes
