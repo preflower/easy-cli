@@ -21,7 +21,7 @@
     "eslint-config-ted": "^2.0.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
-    "stylelint": "^15.10.2",
+    "stylelint": "^15.10.3",
     "stylelint-config-sass-guidelines": "^10.0.0"
   },
   "dependencies": {
