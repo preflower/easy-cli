@@ -6,7 +6,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
     "eslint": "^8.47.0",
-    "eslint-config-ted": "^2.0.1"
+    "eslint-config-ted": "^2.0.2"
   },
   "lint-staged": {
     "*.{js,ts,tsx,vue}": [
