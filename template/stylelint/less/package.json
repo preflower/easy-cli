@@ -6,7 +6,7 @@
     "stylelint": "^15.10.3",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-standard": "^34.0.0",
-    "stylelint-less": "^1.0.8"
+    "stylelint-less": "^2.0.0"
   },
   "lint-staged": {
     "*.{css,less,vue}": [
