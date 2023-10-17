@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "stylelint": "^15.10.3",
+    "stylelint": "^15.11.0",
     "stylelint-config-sass-guidelines": "^10.0.0"
   },
   "lint-staged": {
