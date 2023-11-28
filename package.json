@@ -14,7 +14,7 @@
   "author": "Ted Lin <preflower.lin+npm@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
+    "@changesets/cli": "^2.27.0",
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "eslint": "^8.54.0",
