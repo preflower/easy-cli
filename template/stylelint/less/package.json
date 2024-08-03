@@ -3,10 +3,10 @@
     "less": "^4.2.0",
     "postcss-html": "^1.7.0",
     "postcss-less": "^6.0.0",
-    "stylelint": "^15.11.0",
+    "stylelint": "^16.8.1",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-less": "^2.0.0"
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-less": "^3.0.1"
   },
   "lint-staged": {
     "*.{css,less,vue}": [
