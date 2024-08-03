@@ -5,8 +5,8 @@
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^15.2.8",
-    "eslint": "^8.57.0",
-    "eslint-config-ted": "^2.0.2"
+    "eslint": "^9.8.0",
+    "eslint-config-ted": "^3.0.2"
   },
   "lint-staged": {
     "*.{js,ts,tsx,vue}": [
