@@ -1,6 +1,8 @@
 # Easy-cli
 A easy way to create linter/release/git standard cli
 
+> No more maintenance, use [tengave](https://github.com/preflower/tengrave) template instead of it.
+
 ## Usage
 ```
 npx @preflower/cli
